@@ -4,17 +4,15 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
+  java,
   meta,
   starbucks,
   tesla,
@@ -23,6 +21,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +45,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +53,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Photographer",
     icon: creator,
   },
 ];
@@ -73,16 +72,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -109,23 +100,27 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Java",
+    icon: java,
   },
+  {
+    name : "Express",
+    icon : express
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Machine Learning Internship",
+    company_name: "GLA Javoc",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned Basics of Machine Learning and Artifical Intelligence",
+      "Worked on various Supervised and UnSupervised Machine Learning Models like ",
+      "Supervised -> Random Forest,  Linear Regression , Polynomial Regression , Logistic Regression ",
+      "Unsupervised -> K-nearest Neigbhour , Bayes  ",
     ],
   },
   {

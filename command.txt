@@ -2,7 +2,7 @@ create-react-app -> npm create vite@latest ./ -- --template react
 
 install Tailwind -> npm install --legacy-peer-deps -D postcss autoprefixer 
 and then -> npx tailwindcss init
-
+ 
 
 installing all dependencies -> npm install -legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 

@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import java from "./tech/java.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,17 +20,21 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import express from "./tech/express.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import vibhu from './vibhu-logo.png'
+import vibhus from './vibhu.svg'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import v from './v-logo.png'
 export {
+  v,
+  vibhus,
+  vibhu,
   logo,
   backend,
   creator,
@@ -59,4 +63,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  java,
+  express,
 };
